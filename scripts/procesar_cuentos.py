@@ -6,9 +6,13 @@ import re
 import unicodedata
 from pathlib import Path
 
-# Generos con los que clasificamos todo el proyecto.
-GENEROS_VALIDOS = {"infantil", "fabula", "fantasia", "terror", "ciencia_ficcion",
-                   "aventura", "historico", "misterio", "romance", "realista", "otro"}
+# Tematicas con las que clasificamos todo el proyecto (lista cerrada, sin "otro").
+TEMATICAS_VALIDAS = {
+    "espacio", "animales", "piratas", "magia_y_brujas", "monstruos_y_criaturas",
+    "princesas_y_castillos", "naturaleza_y_bosques", "mar_y_oceano",
+    "robots_y_tecnologia", "dinosaurios_y_prehistoria", "fantasmas_y_misterio",
+    "heroes_y_aventuras",
+}
 
 MIN_PALABRAS = 100
 MAX_PALABRAS = 20000
@@ -42,7 +46,7 @@ def main():
     parser = argparse.ArgumentParser(description="Procesa nuestros cuentos crudos y genera el CSV parcial de una persona.")
     parser.add_argument("--usuario", required=True, help="Tu usuario, ej. angel_reyes")
     parser.add_argument("--carpeta", default="mis_cuentos", help="Carpeta con los .txt")
-    parser.add_argument("--metadata", default="metadata_cuentos.csv", help="CSV con archivo,titulo,autor,genero,fuente")
+    parser.add_argument("--metadata", default="metadata_cuentos.csv", help="CSV con archivo,titulo,autor,tematica,fuente")
     parser.add_argument("--salida", default=None)
     args = parser.parse_args()
 
@@ -61,9 +65,9 @@ def main():
             continue
 
         texto = limpiar(ruta.read_text(encoding="utf-8", errors="ignore"))
-        genero = meta["genero"].strip().lower()
-        if genero not in GENEROS_VALIDOS:
-            descartados.append((archivo, f"genero invalido: {genero}"))
+        tematica = meta["tematica"].strip().lower()
+        if tematica not in TEMATICAS_VALIDAS:
+            descartados.append((archivo, f"tematica invalida: {tematica}"))
             continue
 
         n = len(texto.split())
@@ -81,7 +85,7 @@ def main():
             "id": f"{args.usuario}_{i:04d}",
             "titulo": meta["titulo"].strip(),
             "autor": (meta.get("autor") or "Anonimo").strip(),
-            "genero": genero,
+            "tematica": tematica,
             "idioma": "es",
             "num_palabras": n,
             "fuente": meta.get("fuente", "").strip(),
@@ -90,7 +94,7 @@ def main():
             "texto": texto,
         })
 
-    campos = ["id", "titulo", "autor", "genero", "idioma",
+    campos = ["id", "titulo", "autor", "tematica", "idioma",
               "num_palabras", "fuente", "recolector", "hash_texto", "texto"]
     with open(salida, "w", encoding="utf-8", newline="") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)

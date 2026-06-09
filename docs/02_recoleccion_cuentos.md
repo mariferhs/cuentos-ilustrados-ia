@@ -1,10 +1,10 @@
 # 02 · Recolección de cuentos
 
-Aquí dejas tus cuentos listos para el modelo. Al terminar tendrás un archivo CSV limpio que subirás al repo. Tu meta son 600 cuentos del género que te tocó.
+Aquí dejas tus cuentos listos para el modelo. Al terminar tendrás un archivo CSV limpio que subirás al repo. Tu meta son 1,000 cuentos de la temática que te tocó.
 
 ## 1. Confirma tu asignación
 
-Abre `coordinacion/asignaciones.csv`, busca tu nombre y anota dos cosas: tu **género** y tu **fuente de cuentos**. Solo trabajas esa combinación, para no juntar lo mismo que tus compañeros. De dónde sacar el material de cada fuente está en `docs/04_fuentes.md`.
+Abre `coordinacion/asignaciones.csv`, busca tu nombre y anota dos cosas: tu **temática** y tu **fuente de cuentos**. Solo trabajas esa combinación, para no juntar lo mismo que tus compañeros. De dónde sacar el material de cada fuente está en `docs/04_fuentes.md`.
 
 ## 2. Prepara tu carpeta
 
@@ -24,12 +24,12 @@ Al guardar cada cuento, déjalo limpio: quita índices, prólogos, números de p
 Copia `plantillas/metadata_cuentos_ejemplo.csv` a la raíz del repo y renómbralo `metadata_cuentos.csv`. Pon un renglón por cada cuento:
 
 ```
-archivo,titulo,autor,genero,fuente
-cuento_001.txt,El patito feo,Hans Christian Andersen,infantil,Wikisource ES
-cuento_002.txt,La pata de mono,W. W. Jacobs,terror,Project Gutenberg
+archivo,titulo,autor,tematica,fuente
+cuento_001.txt,Viaje a la Luna,Anonimo,espacio,Cuentos para Algernon
+cuento_002.txt,La isla del tesoro,Anonimo,piratas,Ciudad Seva
 ```
 
-La columna `genero` debe ser uno de: `infantil`, `fabula`, `fantasia`, `terror`, `ciencia_ficcion`, `aventura`, `historico`, `misterio`, `romance`, `realista`, `otro`. Si no sabes el autor, pon `Anonimo`.
+La columna `tematica` debe ser una de la lista cerrada: `espacio`, `animales`, `piratas`, `magia_y_brujas`, `monstruos_y_criaturas`, `princesas_y_castillos`, `naturaleza_y_bosques`, `mar_y_oceano`, `robots_y_tecnologia`, `dinosaurios_y_prehistoria`, `fantasmas_y_misterio`, `heroes_y_aventuras`. Normalmente será la que te asignaron. Si no sabes el autor, pon `Anonimo`.
 
 ## 4. Genera tu CSV (el paso que hace la magia)
 
@@ -39,7 +39,7 @@ python scripts/procesar_cuentos.py --usuario TU_USUARIO
 
 (Tu usuario es el que aparece en `asignaciones.csv`, por ejemplo `angel_reyes`.) El script automáticamente limpia el texto, cuenta las palabras y descarta lo demasiado corto o largo, le calcula una huella para detectar repetidos, y arma tu archivo en `datos/cuentos/parciales/parcial_TU_USUARIO.csv`. En la consola te dice si descartó algo y por qué.
 
-Qué obtienes: ese CSV es tu aporte. Tiene una fila por cuento con título, autor, género, número de palabras, fuente, tu nombre, la huella y el texto completo.
+Qué obtienes: ese CSV es tu aporte. Tiene una fila por cuento con título, autor, temática, número de palabras, fuente, tu nombre, la huella y el texto completo.
 
 ## 5. Revisa y sube
 
@@ -52,5 +52,5 @@ Si no marca errores, sube solo ese CSV al repo (los `.txt` no se suben). El cicl
 ## Errores comunes
 
 - Dejar basura del original (índice, pies de página): el modelo aprende ese ruido. Limpia antes.
-- Meter varias versiones del mismo cuento: crea sesgo. Si ves "Pinocho" tres veces, quédate con una.
+- Meter varias versiones del mismo cuento: crea sesgo. Quédate con una.
 - Mezclar idiomas: todo en español.

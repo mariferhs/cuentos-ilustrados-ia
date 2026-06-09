@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 
 csv.field_size_limit(10 * 1024 * 1024)
 
+META = 1000
+
 
 def cargar(ruta):
     if not os.path.exists(ruta):
@@ -43,14 +45,14 @@ def resumen_por_persona(cuentos, ilustraciones):
     for persona in sorted(personas):
         cs = cuentos_por[persona]
         palabras = [int(c["num_palabras"]) for c in cs] or [0]
-        generos = Counter(c["genero"] for c in cs)
+        tematicas = Counter(c["tematica"] for c in cs)
         resumen.append({
             "recolector": persona,
             "cuentos": len(cs),
             "ilustraciones": len(ilus_por[persona]),
             "palabras_promedio": round(sum(palabras) / len(palabras), 1),
-            "generos_distintos": len(generos),
-            "entropia_generos": round(entropia(generos), 3),
+            "tematicas_distintas": len(tematicas),
+            "entropia_tematicas": round(entropia(tematicas), 3),
         })
     return resumen
 
@@ -75,7 +77,7 @@ def graficar(resumen, cuentos, ilustraciones, carpeta):
     x = range(len(personas))
     plt.bar([i - 0.2 for i in x], [r["cuentos"] for r in resumen], width=0.4, label="cuentos")
     plt.bar([i + 0.2 for i in x], [r["ilustraciones"] for r in resumen], width=0.4, label="ilustraciones")
-    plt.axhline(600, linestyle="--")
+    plt.axhline(META, linestyle="--")
     plt.title("Muestras recolectadas por persona")
     plt.xticks(list(x), personas, rotation=75, ha="right")
     plt.legend()
@@ -94,25 +96,25 @@ def graficar(resumen, cuentos, ilustraciones, carpeta):
         plt.savefig(os.path.join(carpeta, "longitud_cuentos.png"))
         plt.close()
 
-    todos_generos = Counter(c["genero"] for c in cuentos) + Counter(i["genero"] for i in ilustraciones)
-    if todos_generos:
-        plt.figure(figsize=(9, 4))
-        plt.bar(list(todos_generos.keys()), list(todos_generos.values()))
-        plt.title("Muestras por genero (cuentos + ilustraciones)")
+    todas = Counter(c["tematica"] for c in cuentos) + Counter(i["tematica"] for i in ilustraciones)
+    if todas:
+        plt.figure(figsize=(11, 4))
+        plt.bar(list(todas.keys()), list(todas.values()))
+        plt.title("Muestras por tematica (cuentos + ilustraciones)")
         plt.ylabel("Muestras")
-        plt.xticks(rotation=45, ha="right")
+        plt.xticks(rotation=60, ha="right")
         plt.tight_layout()
-        plt.savefig(os.path.join(carpeta, "muestras_por_genero.png"))
+        plt.savefig(os.path.join(carpeta, "muestras_por_tematica.png"))
         plt.close()
 
 
 def escribir_reporte(resumen, cuentos, ilustraciones, carpeta):
     rtt, vocab, tokens = riqueza_lexica(cuentos)
-    generos_c = Counter(c["genero"] for c in cuentos)
+    tematicas_c = Counter(c["tematica"] for c in cuentos)
 
     ruta_csv = os.path.join(carpeta, "resumen_por_persona.csv")
     campos = ["recolector", "cuentos", "ilustraciones", "palabras_promedio",
-              "generos_distintos", "entropia_generos"]
+              "tematicas_distintas", "entropia_tematicas"]
     with open(ruta_csv, "w", encoding="utf-8", newline="") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)
         escritor.writeheader()
@@ -124,11 +126,11 @@ def escribir_reporte(resumen, cuentos, ilustraciones, carpeta):
         f.write(f"- Cuentos totales: {len(cuentos)}\n")
         f.write(f"- Ilustraciones totales: {len(ilustraciones)}\n")
         f.write(f"- Personas: {len(resumen)}\n")
-        f.write(f"- Entropia de generos en cuentos: {entropia(generos_c):.3f} bits\n")
+        f.write(f"- Entropia de tematicas en cuentos: {entropia(tematicas_c):.3f} bits\n")
         f.write(f"- Vocabulario unico: {vocab}  Tokens totales: {tokens}\n")
         f.write(f"- Riqueza lexica (type-token ratio): {rtt:.4f}\n\n")
-        f.write("Por debajo de cuota (menos de 600 cuentos o 600 ilustraciones):\n\n")
-        rezagados = [r for r in resumen if r["cuentos"] < 600 or r["ilustraciones"] < 600]
+        f.write(f"Por debajo de cuota (menos de {META} cuentos o {META} ilustraciones):\n\n")
+        rezagados = [r for r in resumen if r["cuentos"] < META or r["ilustraciones"] < META]
         if rezagados:
             for r in rezagados:
                 f.write(f"- {r['recolector']}: {r['cuentos']} cuentos, {r['ilustraciones']} ilustraciones\n")

@@ -6,8 +6,17 @@ from pathlib import Path
 
 from PIL import Image
 
-GENEROS_VALIDOS = {"infantil", "fabula", "fantasia", "terror", "ciencia_ficcion",
-                   "aventura", "historico", "misterio", "romance", "realista", "otro"}
+TEMATICAS_VALIDAS = {
+    "espacio", "animales", "piratas", "magia_y_brujas", "monstruos_y_criaturas",
+    "princesas_y_castillos", "naturaleza_y_bosques", "mar_y_oceano",
+    "robots_y_tecnologia", "dinosaurios_y_prehistoria", "fantasmas_y_misterio",
+    "heroes_y_aventuras",
+}
+
+# Estilo acordado para todo el proyecto. Si el equipo cambia el estilo, se
+# ajusta aqui y en docs/03.
+ESTILO_ACORDADO = "ilustracion_plana_color"
+
 LADO_MINIMO = 64  # descartamos imagenes demasiado chicas para entrenar
 
 
@@ -28,7 +37,7 @@ def main():
     parser = argparse.ArgumentParser(description="Indexa nuestras ilustraciones crudas y genera el CSV parcial de una persona.")
     parser.add_argument("--usuario", required=True, help="Tu usuario, ej. angel_reyes")
     parser.add_argument("--carpeta", default="mis_ilustraciones", help="Carpeta con las imagenes")
-    parser.add_argument("--metadata", default="metadata_ilustraciones.csv", help="CSV con archivo,genero,descripcion,fuente")
+    parser.add_argument("--metadata", default="metadata_ilustraciones.csv", help="CSV con archivo,tematica,descripcion,fuente")
     parser.add_argument("--salida", default=None)
     args = parser.parse_args()
 
@@ -46,9 +55,9 @@ def main():
             descartados.append((archivo, "archivo no encontrado"))
             continue
 
-        genero = meta["genero"].strip().lower()
-        if genero not in GENEROS_VALIDOS:
-            descartados.append((archivo, f"genero invalido: {genero}"))
+        tematica = meta["tematica"].strip().lower()
+        if tematica not in TEMATICAS_VALIDAS:
+            descartados.append((archivo, f"tematica invalida: {tematica}"))
             continue
 
         try:
@@ -72,7 +81,8 @@ def main():
         filas.append({
             "id": f"{args.usuario}_img_{i:04d}",
             "archivo": archivo,
-            "genero": genero,
+            "tematica": tematica,
+            "estilo": (meta.get("estilo") or ESTILO_ACORDADO).strip(),
             "ancho": ancho,
             "alto": alto,
             "descripcion": meta.get("descripcion", "").strip(),
@@ -81,7 +91,7 @@ def main():
             "hash_imagen": h,
         })
 
-    campos = ["id", "archivo", "genero", "ancho", "alto",
+    campos = ["id", "archivo", "tematica", "estilo", "ancho", "alto",
               "descripcion", "fuente", "recolector", "hash_imagen"]
     with open(salida, "w", encoding="utf-8", newline="") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)

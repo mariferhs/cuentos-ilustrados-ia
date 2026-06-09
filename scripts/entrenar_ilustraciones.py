@@ -13,12 +13,12 @@ LADO = 64  # entrenamos a 64x64 para que sea manejable
 
 
 class IlustracionesDataset(Dataset):
-    def __init__(self, indice_csv, carpeta_imagenes, genero_a_idx):
+    def __init__(self, indice_csv, carpeta_imagenes, tematica_a_idx):
         self.carpeta = carpeta_imagenes
-        self.genero_a_idx = genero_a_idx
+        self.tematica_a_idx = tematica_a_idx
         with open(indice_csv, encoding="utf-8") as f:
             self.filas = [fila for fila in csv.DictReader(f)
-                          if fila["genero"] in genero_a_idx]
+                          if fila["tematica"] in tematica_a_idx]
 
     def __len__(self):
         return len(self.filas)
@@ -29,13 +29,13 @@ class IlustracionesDataset(Dataset):
         img = Image.open(ruta).convert("RGB").resize((LADO, LADO))
         tensor = torch.tensor(list(img.getdata()), dtype=torch.float32) / 255.0
         tensor = tensor.view(LADO, LADO, 3).permute(2, 0, 1)
-        return tensor, self.genero_a_idx[fila["genero"]]
+        return tensor, self.tematica_a_idx[fila["tematica"]]
 
 
 class VAECondicional(nn.Module):
-    def __init__(self, n_generos, dim_z=128, dim_genero=16):
+    def __init__(self, n_tematicas, dim_z=128, dim_tematica=16):
         super().__init__()
-        self.embed_genero = nn.Embedding(n_generos, dim_genero)
+        self.embed_tematica = nn.Embedding(n_tematicas, dim_tematica)
 
         self.encoder = nn.Sequential(
             nn.Conv2d(3, 32, 4, 2, 1), nn.ReLU(),   # 32x32
@@ -45,7 +45,7 @@ class VAECondicional(nn.Module):
         self.fc_mu = nn.Linear(128 * 8 * 8, dim_z)
         self.fc_logvar = nn.Linear(128 * 8 * 8, dim_z)
 
-        self.fc_dec = nn.Linear(dim_z + dim_genero, 128 * 8 * 8)
+        self.fc_dec = nn.Linear(dim_z + dim_tematica, 128 * 8 * 8)
         self.decoder = nn.Sequential(
             nn.ConvTranspose2d(128, 64, 4, 2, 1), nn.ReLU(),  # 16x16
             nn.ConvTranspose2d(64, 32, 4, 2, 1), nn.ReLU(),   # 32x32
@@ -56,16 +56,16 @@ class VAECondicional(nn.Module):
         h = self.encoder(x).flatten(1)
         return self.fc_mu(h), self.fc_logvar(h)
 
-    def decode(self, z, genero):
-        e = self.embed_genero(genero)
+    def decode(self, z, tematica):
+        e = self.embed_tematica(tematica)
         h = self.fc_dec(torch.cat([z, e], dim=1)).view(-1, 128, 8, 8)
         return self.decoder(h)
 
-    def forward(self, x, genero):
+    def forward(self, x, tematica):
         mu, logvar = self.encode(x)
         std = torch.exp(0.5 * logvar)
         z = mu + std * torch.randn_like(std)
-        return self.decode(z, genero), mu, logvar
+        return self.decode(z, tematica), mu, logvar
 
 
 def perdida_vae(recon, x, mu, logvar):
@@ -75,7 +75,7 @@ def perdida_vae(recon, x, mu, logvar):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Entrena nuestro VAE condicional de ilustraciones por genero.")
+    parser = argparse.ArgumentParser(description="Entrena nuestro VAE condicional de ilustraciones por tematica.")
     parser.add_argument("--indice", default="datos/ilustraciones/dataset_ilustraciones.csv")
     parser.add_argument("--imagenes", default="imagenes", help="Carpeta compartida con todas las imagenes")
     parser.add_argument("--salida", default="modelos")
@@ -88,27 +88,27 @@ def main():
     dispositivo = "cuda" if torch.cuda.is_available() else "cpu"
     print("Dispositivo:", dispositivo)
 
-    generos = set()
+    tematicas = set()
     with open(args.indice, encoding="utf-8") as f:
         for fila in csv.DictReader(f):
-            generos.add(fila["genero"])
-    genero_a_idx = {g: i for i, g in enumerate(sorted(generos))}
-    print(f"Generos: {len(genero_a_idx)}")
+            tematicas.add(fila["tematica"])
+    tematica_a_idx = {t: i for i, t in enumerate(sorted(tematicas))}
+    print(f"Tematicas: {len(tematica_a_idx)}")
 
-    datos = IlustracionesDataset(args.indice, args.imagenes, genero_a_idx)
+    datos = IlustracionesDataset(args.indice, args.imagenes, tematica_a_idx)
     print(f"Ilustraciones: {len(datos)}")
     cargador = DataLoader(datos, batch_size=args.lote, shuffle=True)
 
-    modelo = VAECondicional(len(genero_a_idx), dim_z=args.dim_z).to(dispositivo)
+    modelo = VAECondicional(len(tematica_a_idx), dim_z=args.dim_z).to(dispositivo)
     optimizador = torch.optim.Adam(modelo.parameters(), lr=args.lr)
 
     for epoca in range(1, args.epocas + 1):
         modelo.train()
         perdida_total = 0.0
-        for imgs, gens in cargador:
+        for imgs, tems in cargador:
             imgs = imgs.to(dispositivo)
-            gens = gens.to(dispositivo)
-            recon, mu, logvar = modelo(imgs, gens)
+            tems = tems.to(dispositivo)
+            recon, mu, logvar = modelo(imgs, tems)
             perdida = perdida_vae(recon, imgs, mu, logvar)
             optimizador.zero_grad()
             perdida.backward()
@@ -118,8 +118,8 @@ def main():
 
     os.makedirs(args.salida, exist_ok=True)
     torch.save({"estado": modelo.state_dict(), "dim_z": args.dim_z}, os.path.join(args.salida, "vae_ilustracion.pt"))
-    with open(os.path.join(args.salida, "generos_ilustracion.json"), "w", encoding="utf-8") as f:
-        json.dump({"genero_a_idx": genero_a_idx}, f, ensure_ascii=False)
+    with open(os.path.join(args.salida, "tematicas_ilustracion.json"), "w", encoding="utf-8") as f:
+        json.dump({"tematica_a_idx": tematica_a_idx}, f, ensure_ascii=False)
     print("Modelo guardado en", args.salida)
 
 

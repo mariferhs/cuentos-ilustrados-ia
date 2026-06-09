@@ -10,11 +10,11 @@ python scripts/analizar_contribuciones.py
 
 Lee los dos datasets maestros y produce:
 
-- `resumen_por_persona.csv` — por cada quien: cuántos cuentos y cuántas ilustraciones aportó, palabras promedio de sus cuentos, cuántos géneros distintos cubrió y la entropía de esos géneros.
-- `reporte.md` — totales del proyecto, vocabulario único, riqueza léxica y la lista de quién va por debajo de la cuota de 600.
-- Gráficas: muestras por persona, longitud de los cuentos y muestras por género.
+- `resumen_por_persona.csv` — por cada quien: cuántos cuentos y cuántas ilustraciones aportó, palabras promedio de sus cuentos, cuántas temáticas distintas cubrió y la entropía de esas temáticas.
+- `reporte.md` — totales del proyecto, vocabulario único, riqueza léxica y la lista de quién va por debajo de la cuota de 1,000.
+- Gráficas: muestras por persona, longitud de los cuentos y muestras por temática.
 
-La entropía de géneros mide qué tan repartido está el aporte entre tipos de cuento; sirve para vigilar que el dataset no se amontone en un par de géneros. La riqueza léxica (palabras únicas entre palabras totales) avisa si hay mucha repetición, señal de poca variedad. Las dos cosas nos ayudan a detectar a tiempo si el dataset se está sesgando, que es lo que arruina la generalización.
+La entropía de temáticas mide qué tan repartido está el aporte entre temas; sirve para vigilar que el dataset no se amontone en un par de temáticas. La riqueza léxica (palabras únicas entre palabras totales) avisa si hay mucha repetición, señal de poca variedad. Las dos cosas nos ayudan a detectar a tiempo si el dataset se está sesgando, que es lo que arruina la generalización.
 
 ## Análisis de lo generado (control de copia)
 

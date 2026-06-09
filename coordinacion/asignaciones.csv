@@ -1,26 +1,26 @@
-persona,usuario,genero,fuente_cuentos,fuente_ilustraciones,meta_cuentos,meta_ilustraciones,estado
-Angel Eduardo Reyes Leon,angel_reyes,infantil,Project Gutenberg,Wikimedia Commons,600,600,por iniciar
-Rodea Azcona Alejandro Sebastian,alejandro_rodea,fabula,Biblioteca Virtual Cervantes,Openclipart,600,600,por iniciar
-Mexica Contreras Yaretzi,yaretzi_mexica,fantasia,Wikisource ES,Smithsonian Open Access,600,600,por iniciar
-Leon Villagomez Antonio,antonio_leon,terror,Archive.org,NYPL Public Domain,600,600,por iniciar
-Reyna Alvarez Brandon Yire,brandon_reyna,ciencia_ficcion,Biblioteca Digital Hispanica,British Library Archive,600,600,por iniciar
-Gabriela Cervantes,gabriela_cervantes,aventura,Project Gutenberg,Wikimedia Commons,600,600,por iniciar
-Moises Cordero Perez,moises_cordero,historico,Biblioteca Virtual Cervantes,Openclipart,600,600,por iniciar
-Karen Flores Bustos,karen_flores,misterio,Wikisource ES,Smithsonian Open Access,600,600,por iniciar
-Fernanda Garcia,fernanda_garcia,romance,Archive.org,NYPL Public Domain,600,600,por iniciar
-Alan Garcia Juanillo,alan_garcia,realista,Biblioteca Digital Hispanica,British Library Archive,600,600,por iniciar
-Dayan Garcia Juarez,dayan_garcia,otro,Project Gutenberg,Wikimedia Commons,600,600,por iniciar
-Grisel Godinez Pina,grisel_godinez,infantil,Biblioteca Virtual Cervantes,Openclipart,600,600,por iniciar
-Ernesto Guevara Guzman,ernesto_guevara,fabula,Wikisource ES,Smithsonian Open Access,600,600,por iniciar
-Raul Gael Hernandez Hernandez,raul_hernandez,fantasia,Archive.org,NYPL Public Domain,600,600,por iniciar
-Maria Fernanda Hernandez Sosol,fernanda_hernandez,terror,Biblioteca Digital Hispanica,British Library Archive,600,600,por iniciar
-Fuentes Gonzalez Jesus Dario,jesus_fuentes,ciencia_ficcion,Project Gutenberg,Wikimedia Commons,600,600,por iniciar
-Melgarejo Zarate Karla Gabriela,karla_melgarejo,aventura,Biblioteca Virtual Cervantes,Openclipart,600,600,por iniciar
-Axel Mendoza,axel_mendoza,historico,Wikisource ES,Smithsonian Open Access,600,600,por iniciar
-Cesar Munguia,cesar_munguia,misterio,Archive.org,NYPL Public Domain,600,600,por iniciar
-Marco Antonio Nieves Bartolo,marco_nieves,romance,Biblioteca Digital Hispanica,British Library Archive,600,600,por iniciar
-Evelyne Rojas,evelyne_rojas,realista,Project Gutenberg,Wikimedia Commons,600,600,por iniciar
-Ingrid Yanik Salceda Zeron,ingrid_salceda,otro,Biblioteca Virtual Cervantes,Openclipart,600,600,por iniciar
-Daniel Alberto Solano Vicencio,daniel_solano,infantil,Wikisource ES,Smithsonian Open Access,600,600,por iniciar
-Mauricio Sosa,mauricio_sosa,fabula,Archive.org,NYPL Public Domain,600,600,por iniciar
-Reynoso Ortega Valeria,valeria_reynoso,fantasia,Biblioteca Digital Hispanica,British Library Archive,600,600,por iniciar
+persona,usuario,tematica,fuente_cuentos,fuente_ilustraciones,meta_cuentos,meta_ilustraciones,estado
+Angel Eduardo Reyes Leon,angel_reyes,espacio,Cuentos para Algernon,Openclipart,1000,1000,por iniciar
+Rodea Azcona Alejandro Sebastian,alejandro_rodea,espacio,Cactus Pink,Pixabay,1000,1000,por iniciar
+Mexica Contreras Yaretzi,yaretzi_mexica,animales,Bosque de Fantasias,Wikimedia Commons,1000,1000,por iniciar
+Leon Villagomez Antonio,antonio_leon,animales,Cuentos para Dormir,Vecteezy,1000,1000,por iniciar
+Reyna Alvarez Brandon Yire,brandon_reyna,piratas,Ciudad Seva,Rawpixel,1000,1000,por iniciar
+Gabriela Cervantes,gabriela_cervantes,piratas,Elejandria,Openclipart,1000,1000,por iniciar
+Moises Cordero Perez,moises_cordero,magia_y_brujas,Bosque de Fantasias,Pixabay,1000,1000,por iniciar
+Karen Flores Bustos,karen_flores,magia_y_brujas,Rincon Castellano,Wikimedia Commons,1000,1000,por iniciar
+Fernanda Garcia,fernanda_garcia,monstruos_y_criaturas,Cuentos para Algernon,Vecteezy,1000,1000,por iniciar
+Alan Garcia Juanillo,alan_garcia,monstruos_y_criaturas,Cactus Pink,Rawpixel,1000,1000,por iniciar
+Dayan Garcia Juarez,dayan_garcia,princesas_y_castillos,Rincon Castellano,Openclipart,1000,1000,por iniciar
+Grisel Godinez Pina,grisel_godinez,princesas_y_castillos,Cuentos para Dormir,Pixabay,1000,1000,por iniciar
+Ernesto Guevara Guzman,ernesto_guevara,naturaleza_y_bosques,Project Gutenberg,Wikimedia Commons,1000,1000,por iniciar
+Raul Gael Hernandez Hernandez,raul_hernandez,naturaleza_y_bosques,Wikisource ES,Vecteezy,1000,1000,por iniciar
+Maria Fernanda Hernandez Sosol,fernanda_hernandez,mar_y_oceano,Internet Archive,Rawpixel,1000,1000,por iniciar
+Fuentes Gonzalez Jesus Dario,jesus_fuentes,mar_y_oceano,Biblioteca Virtual Cervantes,Openclipart,1000,1000,por iniciar
+Melgarejo Zarate Karla Gabriela,karla_melgarejo,robots_y_tecnologia,Cuentos para Algernon,Pixabay,1000,1000,por iniciar
+Axel Mendoza,axel_mendoza,robots_y_tecnologia,Ciencia Ficcion Mexico,Wikimedia Commons,1000,1000,por iniciar
+Cesar Munguia,cesar_munguia,dinosaurios_y_prehistoria,Bosque de Fantasias,Vecteezy,1000,1000,por iniciar
+Marco Antonio Nieves Bartolo,marco_nieves,dinosaurios_y_prehistoria,Cuentos para Dormir,Rawpixel,1000,1000,por iniciar
+Evelyne Rojas,evelyne_rojas,fantasmas_y_misterio,Ciudad Seva,Openclipart,1000,1000,por iniciar
+Ingrid Yanik Salceda Zeron,ingrid_salceda,fantasmas_y_misterio,Biblioteca Digital Hispanica,Pixabay,1000,1000,por iniciar
+Daniel Alberto Solano Vicencio,daniel_solano,heroes_y_aventuras,Project Gutenberg,Wikimedia Commons,1000,1000,por iniciar
+Mauricio Sosa,mauricio_sosa,heroes_y_aventuras,Internet Archive,Vecteezy,1000,1000,por iniciar
+Reynoso Ortega Valeria,valeria_reynoso,heroes_y_aventuras,Elejandria,Rawpixel,1000,1000,por iniciar

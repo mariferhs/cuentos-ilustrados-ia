@@ -1,33 +1,47 @@
 # 04 · Fuentes
 
-Usamos solo material de dominio público o con licencia libre, para no tener problemas legales y porque suele venir limpio. Cada quien tiene su fuente asignada en `coordinacion/asignaciones.csv`; aquí explicamos cada una.
+Esta lista está revisada para que de verdad se pueda **descargar el texto completo** (o copiarlo de la página), no catálogos de venta. Cada quien tiene su fuente asignada en `coordinacion/asignaciones.csv`. Usa material gratuito y, de preferencia, de dominio público o licencia libre.
 
-## Fuentes de cuentos (en español)
+## Atajo: datasets ya armados
 
-- **Project Gutenberg** (gutenberg.org) — miles de libros de dominio público, muchos en español, descargables en texto. Para repartir dentro de una fuente grande, divídela por rango alfabético del autor.
-- **Biblioteca Virtual Miguel de Cervantes** (cervantesvirtual.com) — gran acervo de literatura en español.
-- **Wikisource en español** (es.wikisource.org) — cuentos, fábulas y textos libres.
-- **Archive.org** (archive.org) — libros digitalizados, muchos en dominio público.
-- **Biblioteca Digital Hispánica** (BNE, bdh.bne.es) — obras digitalizadas de la Biblioteca Nacional de España.
+Antes de recolectar a mano, vale la pena aprovechar dos datasets que ya existen (scrapeados de cuentos en español). El coordinador puede integrarlos y repartir solo lo que falte:
 
-## Fuentes de ilustraciones (libres o dominio público)
+- **Hugging Face `Fernandoefg/cuentos_es`** — unos 7,239 cuentos en CSV, con autor, país, título, categoría y texto completo. Atajo enorme.
+- **GitHub `karen-pal/borges`** — 719 cuentos de 58 autores latinoamericanos (Borges, Cortázar, Rulfo, etc.) en CSV, uso libre con atribución.
 
-- **Wikimedia Commons** (commons.wikimedia.org) — millones de imágenes libres, filtrables por tema.
-- **Openclipart** (openclipart.org) — ilustraciones y clipart de dominio público, buenísimas para géneros como infantil o fábula.
-- **Smithsonian Open Access** (si.edu/openaccess) — imágenes de libre uso del Smithsonian.
-- **NYPL Public Domain** (digitalcollections.nypl.org) — colecciones de dominio público de la Biblioteca de Nueva York.
-- **British Library / Internet Archive** (colección de imágenes de libros antiguos) — ilustraciones de dominio público escaneadas de libros.
+Nota: ambos provienen de Ciudad Seva, así que hay que deduplicar entre ellos, y su licencia no es totalmente clara, conviene usarlos con fines académicos.
 
-## Cómo elegir según tu género
+## Fuentes para descarga masiva (dominio público)
 
-La idea es que las muestras peguen con el género que te tocó. Por ejemplo:
+- **Project Gutenberg en español** (gutenberg.org/browse/languages/es) — clásicos y cuentos del s.XIX-XX, descarga directa en .txt y ePub. Para bajar en lote existe el scraper oficial openzim/gutenberg (filtra por idioma `es`).
+- **Wikisource en español** (es.wikisource.org, Categoría:Cuentos) — más de mil páginas de cuentos; texto en HTML para copiar y descargable como PDF; también accesible por la API de MediaWiki para lote.
+- **Internet Archive** (archive.org, filtro idioma español) — muchos ítems traen "Full Text" en .txt descargable. Para lote, la herramienta `ia` de Python.
+- **Biblioteca Virtual Miguel de Cervantes** (cervantesvirtual.com) — literatura en español a texto completo en HTML/PDF; tiene portal de Literatura Infantil y Juvenil.
+- **Elejandría** (elejandria.com) — clásicos por categorías (terror, ciencia ficción, infantil, aventura), descarga directa en ePub/PDF sin registro.
+- **Biblioteca Digital Hispánica / BNE** (bdh.bne.es) — obras digitalizadas con PDF y texto OCR; hay dataset de datos abiertos en datos.gob.es con enlaces al texto.
 
-- `infantil` y `fabula`: cuentos cortos y sencillos, ilustraciones simples, coloridas y amables.
-- `aventura`, `fantasia`, `misterio`: relatos con más trama; ilustraciones con más detalle.
-- `terror`, `ciencia_ficcion`, `historico`, `realista`: textos más complejos; ilustraciones realistas, sombrías o de época, según el caso.
+## Fuentes por tipo de cuento (recolección uno por uno)
 
-Mientras todos cubrimos géneros distintos, el dataset completo sale variado, que es lo que evita que el modelo se sesgue (justo lo que advirtió el profe).
+- **Ciudad Seva** (ciudadseva.com) — miles de cuentos de autores clásicos (Poe, Chéjov, Quiroga, Cortázar…), texto completo en la web. Ideal para `fantasmas_y_misterio`, `mar_y_oceano`, `heroes_y_aventuras`.
+- **Cuentos para Dormir** (cuentosparadormir.com) — cientos de cuentos infantiles originales, descargables en PDF. Bueno para `animales`, `princesas_y_castillos`, `dinosaurios_y_prehistoria`.
+- **Bosque de Fantasías** (bosquedefantasias.com) — cuentos infantiles cortos y fábulas, texto en la web. Para `animales`, `magia_y_brujas`, `dinosaurios_y_prehistoria`.
+- **Rincón Castellano** (rinconcastellano.com/cuentos) — cuentos clásicos de Andersen, Grimm, Perrault. Para `magia_y_brujas`, `princesas_y_castillos`.
+- **Cuentos para Algernon** (cuentosparaalgernon.wordpress.com) — ciencia ficción, fantasía y terror traducidos, texto completo en la web. Para `espacio`, `robots_y_tecnologia`, `monstruos_y_criaturas`.
+- **Cactus Pink** (cactuspink.net) — ciencia ficción, terror y fantástico en español. Para `espacio`, `monstruos_y_criaturas`.
+- **Ciencia Ficción México** (cienciaficcionmexico.com) — relatos de CF y terror de autores mexicanos. Para `robots_y_tecnologia`, `espacio`.
 
-## Un recordatorio importante
+Ojo: los sitios contemporáneos (Cuentos para Dormir, Bosque de Fantasías, Cactus Pink, Algernon, Ciencia Ficción México) tienen derechos de autor; sirven para este proyecto académico, pero no son dominio público.
+
+## Fuentes de ilustraciones (estilo plano a color, ver docs/03)
+
+Elegimos fuentes que tienen mucho material en estilo plano/caricatura, que es el que acordamos:
+
+- **Openclipart** (openclipart.org) — clipart vectorial plano, dominio público (CC0). La más recomendada.
+- **Pixabay** (pixabay.com, filtro "ilustraciones/vectores") — ilustraciones planas gratis, sin atribución obligatoria.
+- **Wikimedia Commons** (commons.wikimedia.org, categoría clip art / ilustraciones) — imágenes libres.
+- **Vecteezy** (vecteezy.com, sección gratis) — ilustraciones vectoriales planas (atribución en el plan gratuito).
+- **Rawpixel** (rawpixel.com, sección dominio público) — ilustraciones libres.
+
+## Recordatorio importante
 
 No juntes material generado por IA. Si entrenamos con texto o imágenes hechas por otra IA, nuestro modelo aprende los patrones de esa IA y no los de cuentos e ilustraciones reales. Siempre material humano.
