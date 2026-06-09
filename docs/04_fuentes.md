@@ -13,18 +13,20 @@ Usamos solo material de dominio público o con licencia libre, para no tener pro
 ## Fuentes de ilustraciones (libres o dominio público)
 
 - **Wikimedia Commons** (commons.wikimedia.org) — millones de imágenes libres, filtrables por tema.
-- **Openclipart** (openclipart.org) — ilustraciones y clipart de dominio público, buenísimas para edades chicas.
+- **Openclipart** (openclipart.org) — ilustraciones y clipart de dominio público, buenísimas para géneros como infantil o fábula.
 - **Smithsonian Open Access** (si.edu/openaccess) — imágenes de libre uso del Smithsonian.
 - **NYPL Public Domain** (digitalcollections.nypl.org) — colecciones de dominio público de la Biblioteca de Nueva York.
 - **British Library / Internet Archive** (colección de imágenes de libros antiguos) — ilustraciones de dominio público escaneadas de libros.
 
-## Cómo elegir según la edad
+## Cómo elegir según tu género
 
-La idea es que las muestras peguen con la edad que te tocó:
+La idea es que las muestras peguen con el género que te tocó. Por ejemplo:
 
-- **0-5 y 6-8:** cuentos cortos y sencillos (fábulas, cuentos de hadas clásicos), ilustraciones simples, coloridas y amables.
-- **9-11 y 12-14:** cuentos y relatos un poco más largos, aventuras; ilustraciones con más detalle.
-- **15-17 y 18+:** relatos y novelas cortas más complejas, terror, ciencia ficción; ilustraciones más realistas o dramáticas. Estos rangos nos dan la variedad que el profe pidió para que el modelo no se sesgue hacia lo infantil.
+- `infantil` y `fabula`: cuentos cortos y sencillos, ilustraciones simples, coloridas y amables.
+- `aventura`, `fantasia`, `misterio`: relatos con más trama; ilustraciones con más detalle.
+- `terror`, `ciencia_ficcion`, `historico`, `realista`: textos más complejos; ilustraciones realistas, sombrías o de época, según el caso.
+
+Mientras todos cubrimos géneros distintos, el dataset completo sale variado, que es lo que evita que el modelo se sesgue (justo lo que advirtió el profe).
 
 ## Un recordatorio importante
 

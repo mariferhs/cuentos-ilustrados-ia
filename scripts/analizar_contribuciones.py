@@ -43,14 +43,14 @@ def resumen_por_persona(cuentos, ilustraciones):
     for persona in sorted(personas):
         cs = cuentos_por[persona]
         palabras = [int(c["num_palabras"]) for c in cs] or [0]
-        edades = Counter(c["edad"] for c in cs)
+        generos = Counter(c["genero"] for c in cs)
         resumen.append({
             "recolector": persona,
             "cuentos": len(cs),
             "ilustraciones": len(ilus_por[persona]),
             "palabras_promedio": round(sum(palabras) / len(palabras), 1),
-            "edades_distintas": len(edades),
-            "entropia_edades": round(entropia(edades), 3),
+            "generos_distintos": len(generos),
+            "entropia_generos": round(entropia(generos), 3),
         })
     return resumen
 
@@ -94,24 +94,25 @@ def graficar(resumen, cuentos, ilustraciones, carpeta):
         plt.savefig(os.path.join(carpeta, "longitud_cuentos.png"))
         plt.close()
 
-    todas_edades = Counter(c["edad"] for c in cuentos) + Counter(i["edad"] for i in ilustraciones)
-    if todas_edades:
-        plt.figure(figsize=(8, 4))
-        plt.bar(list(todas_edades.keys()), list(todas_edades.values()))
-        plt.title("Muestras por rango de edad (cuentos + ilustraciones)")
+    todos_generos = Counter(c["genero"] for c in cuentos) + Counter(i["genero"] for i in ilustraciones)
+    if todos_generos:
+        plt.figure(figsize=(9, 4))
+        plt.bar(list(todos_generos.keys()), list(todos_generos.values()))
+        plt.title("Muestras por genero (cuentos + ilustraciones)")
         plt.ylabel("Muestras")
+        plt.xticks(rotation=45, ha="right")
         plt.tight_layout()
-        plt.savefig(os.path.join(carpeta, "muestras_por_edad.png"))
+        plt.savefig(os.path.join(carpeta, "muestras_por_genero.png"))
         plt.close()
 
 
 def escribir_reporte(resumen, cuentos, ilustraciones, carpeta):
     rtt, vocab, tokens = riqueza_lexica(cuentos)
-    edades_c = Counter(c["edad"] for c in cuentos)
+    generos_c = Counter(c["genero"] for c in cuentos)
 
     ruta_csv = os.path.join(carpeta, "resumen_por_persona.csv")
     campos = ["recolector", "cuentos", "ilustraciones", "palabras_promedio",
-              "edades_distintas", "entropia_edades"]
+              "generos_distintos", "entropia_generos"]
     with open(ruta_csv, "w", encoding="utf-8", newline="") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)
         escritor.writeheader()
@@ -123,7 +124,7 @@ def escribir_reporte(resumen, cuentos, ilustraciones, carpeta):
         f.write(f"- Cuentos totales: {len(cuentos)}\n")
         f.write(f"- Ilustraciones totales: {len(ilustraciones)}\n")
         f.write(f"- Personas: {len(resumen)}\n")
-        f.write(f"- Entropia de edades en cuentos: {entropia(edades_c):.3f} bits\n")
+        f.write(f"- Entropia de generos en cuentos: {entropia(generos_c):.3f} bits\n")
         f.write(f"- Vocabulario unico: {vocab}  Tokens totales: {tokens}\n")
         f.write(f"- Riqueza lexica (type-token ratio): {rtt:.4f}\n\n")
         f.write("Por debajo de cuota (menos de 600 cuentos o 600 ilustraciones):\n\n")

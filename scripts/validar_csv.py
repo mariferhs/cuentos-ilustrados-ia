@@ -3,7 +3,7 @@ import csv
 
 csv.field_size_limit(10 * 1024 * 1024)
 
-CAMPOS = ["id", "titulo", "autor", "edad", "idioma",
+CAMPOS = ["id", "titulo", "autor", "genero", "idioma",
           "num_palabras", "fuente", "recolector", "hash_texto", "texto"]
 
 META = 600

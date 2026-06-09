@@ -6,8 +6,9 @@ import re
 import unicodedata
 from pathlib import Path
 
-# Rangos de edad con los que clasificamos todo el proyecto.
-EDADES_VALIDAS = {"0-5", "6-8", "9-11", "12-14", "15-17", "18+"}
+# Generos con los que clasificamos todo el proyecto.
+GENEROS_VALIDOS = {"infantil", "fabula", "fantasia", "terror", "ciencia_ficcion",
+                   "aventura", "historico", "misterio", "romance", "realista", "otro"}
 
 MIN_PALABRAS = 100
 MAX_PALABRAS = 20000
@@ -41,7 +42,7 @@ def main():
     parser = argparse.ArgumentParser(description="Procesa nuestros cuentos crudos y genera el CSV parcial de una persona.")
     parser.add_argument("--usuario", required=True, help="Tu usuario, ej. angel_reyes")
     parser.add_argument("--carpeta", default="mis_cuentos", help="Carpeta con los .txt")
-    parser.add_argument("--metadata", default="metadata_cuentos.csv", help="CSV con archivo,titulo,autor,edad,fuente")
+    parser.add_argument("--metadata", default="metadata_cuentos.csv", help="CSV con archivo,titulo,autor,genero,fuente")
     parser.add_argument("--salida", default=None)
     args = parser.parse_args()
 
@@ -60,9 +61,9 @@ def main():
             continue
 
         texto = limpiar(ruta.read_text(encoding="utf-8", errors="ignore"))
-        edad = meta["edad"].strip()
-        if edad not in EDADES_VALIDAS:
-            descartados.append((archivo, f"edad invalida: {edad}"))
+        genero = meta["genero"].strip().lower()
+        if genero not in GENEROS_VALIDOS:
+            descartados.append((archivo, f"genero invalido: {genero}"))
             continue
 
         n = len(texto.split())
@@ -80,7 +81,7 @@ def main():
             "id": f"{args.usuario}_{i:04d}",
             "titulo": meta["titulo"].strip(),
             "autor": (meta.get("autor") or "Anonimo").strip(),
-            "edad": edad,
+            "genero": genero,
             "idioma": "es",
             "num_palabras": n,
             "fuente": meta.get("fuente", "").strip(),
@@ -89,7 +90,7 @@ def main():
             "texto": texto,
         })
 
-    campos = ["id", "titulo", "autor", "edad", "idioma",
+    campos = ["id", "titulo", "autor", "genero", "idioma",
               "num_palabras", "fuente", "recolector", "hash_texto", "texto"]
     with open(salida, "w", encoding="utf-8", newline="") as f:
         escritor = csv.DictWriter(f, fieldnames=campos)
