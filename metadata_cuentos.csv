@@ -1,111 +1,653 @@
-archivo,titulo,autor,tematica,fuente
-cuento_001.txt,Adiós a la ley de la selva (II): El ratón,Anonimo,animales,Cuentos para Dormir
-cuento_002.txt,La rana saltaventanas,Anonimo,animales,Cuentos para Dormir
-cuento_003.txt,El bicho más raro del mundo,Anonimo,animales,Cuentos para Dormir
-cuento_004.txt,Las interminables obras de Ratonville,Anonimo,animales,Cuentos para Dormir
-cuento_005.txt,Jugando con el Sol,Anonimo,animales,Cuentos para Dormir
-cuento_006.txt,"El gallo, el pato y las sirenas",Anonimo,animales,Cuentos para Dormir
-cuento_007.txt,Hielo en la selva,Anonimo,animales,Cuentos para Dormir
-cuento_008.txt,Negrón y los magos chispitas,Anonimo,animales,Cuentos para Dormir
-cuento_009.txt,El zombi cazafantasmas,Anonimo,animales,Cuentos para Dormir
-cuento_010.txt,El zorro bocazas,Anonimo,animales,Cuentos para Dormir
-cuento_011.txt,El viaje de las hijas del sultán,Anonimo,animales,Cuentos para Dormir
-cuento_012.txt,La báscula de las cosquillas,Anonimo,animales,Cuentos para Dormir
-cuento_013.txt,El marciano accidentado,Anonimo,animales,Cuentos para Dormir
-cuento_014.txt,Una puerta al mundo,Anonimo,animales,Cuentos para Dormir
-cuento_015.txt,El regalo mágico del conejito pobre,Anonimo,animales,Cuentos para Dormir
-cuento_016.txt,El leopardo en su árbol,Anonimo,animales,Cuentos para Dormir
-cuento_017.txt,A gritos con los mosquitos,Anonimo,animales,Cuentos para Dormir
-cuento_018.txt,La Gran Visita al último dinosaurio,Anonimo,animales,Cuentos para Dormir
-cuento_019.txt,La araña del museo,Anonimo,animales,Cuentos para Dormir
-cuento_020.txt,La competición de vuelo,Anonimo,animales,Cuentos para Dormir
-cuento_021.txt,Un agujerito en la luna,Anonimo,animales,Cuentos para Dormir
-cuento_022.txt,El alocado segundo día del mundo,Anonimo,animales,Cuentos para Dormir
-cuento_023.txt,Adiós a la ley de la selva (I): El león,Anonimo,animales,Cuentos para Dormir
-cuento_024.txt,Los fantasmas tampoco tienen miedo... a veces,Anonimo,animales,Cuentos para Dormir
-cuento_025.txt,Un hueco en el belén,Anonimo,animales,Cuentos para Dormir
-cuento_026.txt,El sartenazo,Anonimo,animales,Cuentos para Dormir
-cuento_027.txt,Carlos y el caballo,Anonimo,animales,Cuentos para Dormir
-cuento_028.txt,Barba Flamenco y el recortador de cuentos,Anonimo,animales,Cuentos para Dormir
-cuento_029.txt,La madrastra,Anonimo,animales,Cuentos para Dormir
-cuento_030.txt,El zombi cazafantasmas,Anonimo,animales,Cuentos para Dormir
-cuento_031.txt,Halloween tiene miedo,Anonimo,animales,Cuentos para Dormir
-cuento_032.txt,El lugar donde llueve chocolate,Anonimo,animales,Cuentos para Dormir
-cuento_033.txt,El jardín natural,Anonimo,animales,Cuentos para Dormir
-cuento_034.txt,Una puerta al mundo,Anonimo,animales,Cuentos para Dormir
-cuento_035.txt,Una vaca en la cafetería,Anonimo,animales,Cuentos para Dormir
-cuento_036.txt,Los calaguarris,Anonimo,animales,Cuentos para Dormir
-cuento_037.txt,Carreras de patos,Anonimo,animales,Cuentos para Dormir
-cuento_038.txt,Un agujerito en la luna,Anonimo,animales,Cuentos para Dormir
-cuento_039.txt,Hielo en la selva,Anonimo,animales,Cuentos para Dormir
-cuento_040.txt,La pizarra mágica,Anonimo,animales,Cuentos para Dormir
-cuento_041.txt,Augustito Calentito,Anonimo,animales,Cuentos para Dormir
-cuento_042.txt,Una vuelta al cole para valientes,Anonimo,animales,Cuentos para Dormir
-cuento_043.txt,Ladrones en el jardín,Anonimo,animales,Cuentos para Dormir
-cuento_044.txt,El pingüino y el canguro,Anonimo,animales,Cuentos para Dormir
-cuento_045.txt,El leopardo en su árbol,Anonimo,animales,Cuentos para Dormir
-cuento_046.txt,La manía de la rana rockera,Anonimo,animales,Cuentos para Dormir
-cuento_047.txt,La madriguera abarrotada,Anonimo,animales,Cuentos para Dormir
-cuento_048.txt,Adiós a la ley de la selva (III): El mono,Anonimo,animales,Cuentos para Dormir
-cuento_049.txt,Animales de colores,Anonimo,animales,Cuentos para Dormir
-cuento_050.txt,El invisible rey de la selva,Anonimo,animales,Cuentos para Dormir
-cuento_051.txt,El mayor tesoro del mundo,Anonimo,animales,Cuentos para Dormir
-cuento_052.txt,La extraña pajarería,Anonimo,animales,Cuentos para Dormir
-cuento_053.txt,La rana saltaventanas,Anonimo,animales,Cuentos para Dormir
-cuento_054.txt,"Jamina, la jirafa curiosa",Anonimo,animales,Cuentos para Dormir
-cuento_055.txt,Rosa Caprichosa y los animales del jardín,Anonimo,animales,Cuentos para Dormir
-cuento_056.txt,El misterio de la moneda desaparecida,Anonimo,animales,Cuentos para Dormir
-cuento_057.txt,El pajarito perezoso,Anonimo,animales,Cuentos para Dormir
-cuento_058.txt,El perro pesimista,Anonimo,animales,Cuentos para Dormir
-cuento_059.txt,Una aventura llena de pintura,Anonimo,animales,Cuentos para Dormir
-cuento_060.txt,Una playa con sorpresa,Anonimo,animales,Cuentos para Dormir
-cuento_061.txt,"Pico Chato, el equilibrista",Anonimo,animales,Cuentos para Dormir
-cuento_062.txt,El concurso de belleza,Anonimo,animales,Cuentos para Dormir
-cuento_063.txt,Nunca te burles de un rinoceronte,Anonimo,animales,Cuentos para Dormir
-cuento_064.txt,El zorro bocazas,Anonimo,animales,Cuentos para Dormir
-cuento_065.txt,La mala suerte de Pescafrito,Anonimo,animales,Cuentos para Dormir
-cuento_066.txt,EL hipopótamo cantor,Anonimo,animales,Cuentos para Dormir
-cuento_067.txt,Aventuras de un enemigo de Halloween,Anonimo,animales,Cuentos para Dormir
-cuento_068.txt,El caso de Yonohago Kaso,Anonimo,animales,Cuentos para Dormir
-cuento_069.txt,"Enfadator, el terminador de discusiones",Anonimo,animales,Cuentos para Dormir
-cuento_070.txt,El murcipájaro,Anonimo,animales,Cuentos para Dormir
-cuento_071.txt,"El gallo, el pato y las sirenas",Anonimo,animales,Cuentos para Dormir
-cuento_072.txt,La araña del museo,Anonimo,animales,Cuentos para Dormir
-cuento_073.txt,El elefante fotógrafo,Anonimo,animales,Cuentos para Dormir
-cuento_074.txt,El rayo de Luna,Anonimo,animales,Cuentos para Dormir
-cuento_075.txt,Las felices mamás del pantano,Anonimo,animales,Cuentos para Dormir
-cuento_076.txt,La Gran Visita al último dinosaurio,Anonimo,animales,Cuentos para Dormir
-cuento_077.txt,Un encigüeñado día de boda,Anonimo,animales,Cuentos para Dormir
-cuento_078.txt,El regalo mágico del conejito pobre,Anonimo,animales,Cuentos para Dormir
-cuento_079.txt,Carla y sus animales parlantes,Anonimo,animales,Cuentos para Dormir
-cuento_080.txt,Mentiras en la Edad de Piedra,Anonimo,animales,Cuentos para Dormir
-cuento_081.txt,El pequeño colibrí,Anonimo,animales,Cuentos para Dormir
-cuento_082.txt,El gran lío del pulpo,Anonimo,animales,Cuentos para Dormir
-cuento_083.txt,Negrón y los magos chispitas,Anonimo,animales,Cuentos para Dormir
-cuento_084.txt,El bicho más raro del mundo,Anonimo,animales,Cuentos para Dormir
-cuento_085.txt,Las interminables obras de Ratonville,Anonimo,animales,Cuentos para Dormir
-cuento_086.txt,Jugando con el Sol,Anonimo,animales,Cuentos para Dormir
-cuento_087.txt,Veloces caracoles,Anonimo,animales,Cuentos para Dormir
-cuento_088.txt,La báscula de las cosquillas,Anonimo,animales,Cuentos para Dormir
-cuento_089.txt,El tesoro de Madi,Anonimo,animales,Cuentos para Dormir
-cuento_090.txt,EL bosque de la moda,Anonimo,animales,Cuentos para Dormir
-cuento_091.txt,El tigre que se reía de todos,Anonimo,animales,Cuentos para Dormir
-cuento_092.txt,El nacimiento de las tortugas,Anonimo,animales,Cuentos para Dormir
-cuento_093.txt,¡Gusanito se ha perdido!,Anonimo,animales,Cuentos para Dormir
-cuento_094.txt,Un enfado incontrolable,Anonimo,animales,Cuentos para Dormir
-cuento_095.txt,¡Que alguien mueva esa sandía!,Anonimo,animales,Cuentos para Dormir
-cuento_096.txt,Albertina Cruzamundos,Anonimo,animales,Cuentos para Dormir
-cuento_097.txt,El marciano accidentado,Anonimo,animales,Cuentos para Dormir
-cuento_098.txt,Juanija Lagartija,Anonimo,animales,Cuentos para Dormir
-cuento_099.txt,"Adalina, el hada sin alas",Anonimo,animales,Cuentos para Dormir
-cuento_100.txt,La hormiga rebelde,Anonimo,animales,Cuentos para Dormir
-cuento_101.txt,La ley del bosque iluminado,Anonimo,animales,Cuentos para Dormir
-cuento_102.txt,La competición de vuelo,Anonimo,animales,Cuentos para Dormir
-cuento_103.txt,Los problemillas del arca,Anonimo,animales,Cuentos para Dormir
-cuento_104.txt,El viaje de las hijas del sultán,Anonimo,animales,Cuentos para Dormir
-cuento_105.txt,¡Santa me ha robado!,Anonimo,animales,Cuentos para Dormir
-cuento_106.txt,La Tortuguita Valiente y el monstruo,Anonimo,animales,Cuentos para Dormir
-cuento_107.txt,El león afónico,Anonimo,animales,Cuentos para Dormir
-cuento_108.txt,El peor perro guardián del mundo,Anonimo,animales,Cuentos para Dormir
-cuento_109.txt,Adiós a la ley de la selva (II): El ratón,Anonimo,animales,Cuentos para Dormir
-cuento_110.txt,A gritos con los mosquitos,Anonimo,animales,Cuentos para Dormir
+archivo,titulo,autor,tematica,fuente,categoria_original
+cuento_001.txt,Adiós a la ley de la selva (II): El ratón,Anonimo,animales,Cuentos para Dormir,
+cuento_002.txt,La rana saltaventanas,Anonimo,animales,Cuentos para Dormir,
+cuento_003.txt,El bicho más raro del mundo,Anonimo,animales,Cuentos para Dormir,
+cuento_004.txt,Las interminables obras de Ratonville,Anonimo,animales,Cuentos para Dormir,
+cuento_005.txt,Jugando con el Sol,Anonimo,animales,Cuentos para Dormir,
+cuento_006.txt,"El gallo, el pato y las sirenas",Anonimo,animales,Cuentos para Dormir,
+cuento_007.txt,Hielo en la selva,Anonimo,animales,Cuentos para Dormir,
+cuento_008.txt,Negrón y los magos chispitas,Anonimo,animales,Cuentos para Dormir,
+cuento_009.txt,El zombi cazafantasmas,Anonimo,animales,Cuentos para Dormir,
+cuento_010.txt,El zorro bocazas,Anonimo,animales,Cuentos para Dormir,
+cuento_011.txt,El viaje de las hijas del sultán,Anonimo,animales,Cuentos para Dormir,
+cuento_012.txt,La báscula de las cosquillas,Anonimo,animales,Cuentos para Dormir,
+cuento_013.txt,El marciano accidentado,Anonimo,animales,Cuentos para Dormir,
+cuento_014.txt,Una puerta al mundo,Anonimo,animales,Cuentos para Dormir,
+cuento_015.txt,El regalo mágico del conejito pobre,Anonimo,animales,Cuentos para Dormir,
+cuento_016.txt,El leopardo en su árbol,Anonimo,animales,Cuentos para Dormir,
+cuento_017.txt,A gritos con los mosquitos,Anonimo,animales,Cuentos para Dormir,
+cuento_018.txt,La Gran Visita al último dinosaurio,Anonimo,animales,Cuentos para Dormir,
+cuento_019.txt,La araña del museo,Anonimo,animales,Cuentos para Dormir,
+cuento_020.txt,La competición de vuelo,Anonimo,animales,Cuentos para Dormir,
+cuento_021.txt,Un agujerito en la luna,Anonimo,animales,Cuentos para Dormir,
+cuento_022.txt,El alocado segundo día del mundo,Anonimo,animales,Cuentos para Dormir,
+cuento_023.txt,Adiós a la ley de la selva (I): El león,Anonimo,animales,Cuentos para Dormir,
+cuento_024.txt,Los fantasmas tampoco tienen miedo... a veces,Anonimo,animales,Cuentos para Dormir,
+cuento_025.txt,Un hueco en el belén,Anonimo,animales,Cuentos para Dormir,
+cuento_026.txt,El sartenazo,Anonimo,animales,Cuentos para Dormir,
+cuento_027.txt,Carlos y el caballo,Anonimo,animales,Cuentos para Dormir,
+cuento_028.txt,Barba Flamenco y el recortador de cuentos,Anonimo,animales,Cuentos para Dormir,
+cuento_029.txt,La madrastra,Anonimo,animales,Cuentos para Dormir,
+cuento_031.txt,Halloween tiene miedo,Anonimo,animales,Cuentos para Dormir,
+cuento_032.txt,El lugar donde llueve chocolate,Anonimo,animales,Cuentos para Dormir,
+cuento_033.txt,El jardín natural,Anonimo,animales,Cuentos para Dormir,
+cuento_035.txt,Una vaca en la cafetería,Anonimo,animales,Cuentos para Dormir,
+cuento_036.txt,Los calaguarris,Anonimo,animales,Cuentos para Dormir,
+cuento_037.txt,Carreras de patos,Anonimo,animales,Cuentos para Dormir,
+cuento_040.txt,La pizarra mágica,Anonimo,animales,Cuentos para Dormir,
+cuento_041.txt,Augustito Calentito,Anonimo,animales,Cuentos para Dormir,
+cuento_042.txt,Una vuelta al cole para valientes,Anonimo,animales,Cuentos para Dormir,
+cuento_043.txt,Ladrones en el jardín,Anonimo,animales,Cuentos para Dormir,
+cuento_044.txt,El pingüino y el canguro,Anonimo,animales,Cuentos para Dormir,
+cuento_046.txt,La manía de la rana rockera,Anonimo,animales,Cuentos para Dormir,
+cuento_047.txt,La madriguera abarrotada,Anonimo,animales,Cuentos para Dormir,
+cuento_048.txt,Adiós a la ley de la selva (III): El mono,Anonimo,animales,Cuentos para Dormir,
+cuento_049.txt,Animales de colores,Anonimo,animales,Cuentos para Dormir,
+cuento_050.txt,El invisible rey de la selva,Anonimo,animales,Cuentos para Dormir,
+cuento_051.txt,El mayor tesoro del mundo,Anonimo,animales,Cuentos para Dormir,
+cuento_052.txt,La extraña pajarería,Anonimo,animales,Cuentos para Dormir,
+cuento_054.txt,"Jamina, la jirafa curiosa",Anonimo,animales,Cuentos para Dormir,
+cuento_055.txt,Rosa Caprichosa y los animales del jardín,Anonimo,animales,Cuentos para Dormir,
+cuento_056.txt,El misterio de la moneda desaparecida,Anonimo,animales,Cuentos para Dormir,
+cuento_057.txt,El pajarito perezoso,Anonimo,animales,Cuentos para Dormir,
+cuento_058.txt,El perro pesimista,Anonimo,animales,Cuentos para Dormir,
+cuento_059.txt,Una aventura llena de pintura,Anonimo,animales,Cuentos para Dormir,
+cuento_060.txt,Una playa con sorpresa,Anonimo,animales,Cuentos para Dormir,
+cuento_061.txt,"Pico Chato, el equilibrista",Anonimo,animales,Cuentos para Dormir,
+cuento_062.txt,El concurso de belleza,Anonimo,animales,Cuentos para Dormir,
+cuento_063.txt,Nunca te burles de un rinoceronte,Anonimo,animales,Cuentos para Dormir,
+cuento_065.txt,La mala suerte de Pescafrito,Anonimo,animales,Cuentos para Dormir,
+cuento_066.txt,EL hipopótamo cantor,Anonimo,animales,Cuentos para Dormir,
+cuento_067.txt,Aventuras de un enemigo de Halloween,Anonimo,animales,Cuentos para Dormir,
+cuento_068.txt,El caso de Yonohago Kaso,Anonimo,animales,Cuentos para Dormir,
+cuento_069.txt,"Enfadator, el terminador de discusiones",Anonimo,animales,Cuentos para Dormir,
+cuento_070.txt,El murcipájaro,Anonimo,animales,Cuentos para Dormir,
+cuento_073.txt,El elefante fotógrafo,Anonimo,animales,Cuentos para Dormir,
+cuento_074.txt,El rayo de Luna,Anonimo,animales,Cuentos para Dormir,
+cuento_075.txt,Las felices mamás del pantano,Anonimo,animales,Cuentos para Dormir,
+cuento_077.txt,Un encigüeñado día de boda,Anonimo,animales,Cuentos para Dormir,
+cuento_079.txt,Carla y sus animales parlantes,Anonimo,animales,Cuentos para Dormir,
+cuento_080.txt,Mentiras en la Edad de Piedra,Anonimo,animales,Cuentos para Dormir,
+cuento_081.txt,El pequeño colibrí,Anonimo,animales,Cuentos para Dormir,
+cuento_082.txt,El gran lío del pulpo,Anonimo,animales,Cuentos para Dormir,
+cuento_087.txt,Veloces caracoles,Anonimo,animales,Cuentos para Dormir,
+cuento_089.txt,El tesoro de Madi,Anonimo,animales,Cuentos para Dormir,
+cuento_090.txt,EL bosque de la moda,Anonimo,animales,Cuentos para Dormir,
+cuento_091.txt,El tigre que se reía de todos,Anonimo,animales,Cuentos para Dormir,
+cuento_092.txt,El nacimiento de las tortugas,Anonimo,animales,Cuentos para Dormir,
+cuento_093.txt,¡Gusanito se ha perdido!,Anonimo,animales,Cuentos para Dormir,
+cuento_094.txt,Un enfado incontrolable,Anonimo,animales,Cuentos para Dormir,
+cuento_095.txt,¡Que alguien mueva esa sandía!,Anonimo,animales,Cuentos para Dormir,
+cuento_096.txt,Albertina Cruzamundos,Anonimo,animales,Cuentos para Dormir,
+cuento_098.txt,Juanija Lagartija,Anonimo,animales,Cuentos para Dormir,
+cuento_099.txt,"Adalina, el hada sin alas",Anonimo,animales,Cuentos para Dormir,
+cuento_100.txt,La hormiga rebelde,Anonimo,animales,Cuentos para Dormir,
+cuento_101.txt,La ley del bosque iluminado,Anonimo,animales,Cuentos para Dormir,
+cuento_103.txt,Los problemillas del arca,Anonimo,animales,Cuentos para Dormir,
+cuento_105.txt,¡Santa me ha robado!,Anonimo,animales,Cuentos para Dormir,
+cuento_106.txt,La Tortuguita Valiente y el monstruo,Anonimo,animales,Cuentos para Dormir,
+cuento_107.txt,El león afónico,Anonimo,animales,Cuentos para Dormir,
+cuento_108.txt,El peor perro guardián del mundo,Anonimo,animales,Cuentos para Dormir,
+cuento_hf_000003.txt,El campesino; el oso y la zorra,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000007.txt,El gato; el gallo y la zorra,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000008.txt,El gato y la zorra,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000014.txt,El pez de oro,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000017.txt,El sol; la luna y el cuervo,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000019.txt,El zarevich cabrito,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000020.txt,El zarevich Iván y el lobo gris,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000023.txt,La araña Mizguir,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000029.txt,La rana zarevna,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000032.txt,La zorra; la liebre y el gallo,Afanasiev; Aleksandr Nikoalevich,animales,HuggingFace/Fernandoefg,Cuento folclórico
+cuento_hf_000042.txt,En el bosque,Akutagawa; Ryunosuke,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000050.txt,Mariposa,Akutagawa; Ryunosuke,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000112.txt,El puma de sombra,Alegría; Ciro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000113.txt,El sapo y el urubú,Alegría; Ciro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000114.txt,El tigre negro y el venado blanco,Alegría; Ciro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000120.txt,La sirena del bosque,Alegría; Ciro,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000130.txt,El pájaro malo,Alonso; Manuel A.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000150.txt,Colás el Chico y Colás el Grande,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000160.txt,El Ave Fénix,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000162.txt,El caracol y el rosal,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000173.txt,El escarabajo,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000174.txt,El gallo de corral y la veleta,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000181.txt,El jabalí de bronce,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000188.txt,El nido de cisnes,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000198.txt,El sapo,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000208.txt,En el corral,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000210.txt,En el mar remoto,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000225.txt,La gran serpiente de mar,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000226.txt,La hija del rey del pantano,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000232.txt,La mariposa,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000243.txt,La pulga y el profesor,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000256.txt,Las cigüeñas,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000268.txt,Los cisnes salvajes,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000271.txt,Los fuegos fatuos están en la ciudad; dijo la Reina del Pantano,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000278.txt,Pluma y tintero,Andersen; Hans Christian,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_000317.txt,Muerte en el bosque,Anderson; Sherwood,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000335.txt,Cuerno y marfil,Anderson Imbert; Enrique,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000387.txt,El hombre que parecía un caballo,Arévalo Martínez; Rafael,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000416.txt,El gato cocido,Arlt; Roberto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000463.txt,El búho,Arreola; Juan José,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000495.txt,Topos,Arreola; Juan José,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000501.txt,Asnos estúpidos,Asimov; Isaac,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000557.txt,Esa hormiga,Aub; Max,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000560.txt,La hormiga que odiaba al león,Aub; Max,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000590.txt,Las sirenas,Azorín,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000650.txt,El perro,Barrett; Rafael,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000682.txt,Capataz buena persona; montado en caballo blanco,Belaval; Emilio S.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000699.txt,Él siempre metiendo la pata,Bellow; Saul,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_000734.txt,El resto es selva,Benedetti; Mario,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000791.txt,Un boliviano con salida al mar,Benedetti; Mario,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000801.txt,Aceite de perro,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000818.txt,El hombre y la serpiente,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000821.txt,El león y la espina,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000826.txt,El perro y el médico,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000839.txt,Los ojos de la pantera,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000844.txt,Sirena,Bierce; Ambrose,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000879.txt,Confidencias de un lobo,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000880.txt,Cuervo y paloma del doctor Sebastián Darrés,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000884.txt,El calamar opta por su tinta,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000912.txt,La tarde de un fauno,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000920.txt,Moscas y arañas,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000931.txt,Tigres,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_000935.txt,Un león en el bosque de Palermo,Bioy Casares; Adolfo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000954.txt,El último león,Blasco Ibáñez; Vicente,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000955.txt,En el mar,Blasco Ibáñez; Vicente,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_000966.txt,Lobos de mar,Blasco Ibáñez; Vicente,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001026.txt,El perro de doble cuerpo,Borges; Jorge Luis,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001070.txt,Tigres azules,Borges; Jorge Luis,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001095.txt,El Dios de la selva,Bosch; Juan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001100.txt,El río y su enemigo,Bosch; Juan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001142.txt,Dragón,Bradbury; Ray,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001146.txt,El lago,Bradbury; Ray,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001158.txt,La sabana,Bradbury; Ray,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001159.txt,La sirena,Bradbury; Ray,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001169.txt,El animal favorito del señor K.,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001181.txt,Odiseo y las sirenas,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001182.txt,Si los tiburones fueran hombres I,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001183.txt,Si los tiburones fueran hombres II,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001184.txt,Si los tiburones fueran hombres III,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001185.txt,Si los tiburones fueran hombres IV,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001186.txt,Si los tiburones fueran hombres V,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001187.txt,Si los tiburones fueran hombres VI,Brecht; Bertolt,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001194.txt,El viejo del mar,Brennan; Maeve,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001212.txt,El ladrón de gatos,Brown; Fredric,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001236.txt,Una historia de peces,Brown; Fredric,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001243.txt,Delicadeza de langosta,Bukowski; Charles,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001244.txt,Doce monos voladores que no querían fornicar adecuadamente,Bukowski; Charles,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001258.txt,Menos delicado que la langosta,Bukowski; Charles,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001280.txt,La toalla con el gallo rojo,Bulgákov; Mijaíl,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001311.txt,El perro que ha visto a Dios,Buzzati; Dino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001316.txt,El viejo jabalí,Buzzati; Dino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001330.txt,La muerte del dragón,Buzzati; Dino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001342.txt,Los ratones,Buzzati; Dino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001356.txt,Tormenta en el río,Buzzati; Dino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001371.txt,El lobo bobo y la zorra astuta,Caballero; Fernán,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001377.txt,Los caballeros del pez,Caballero; Fernán,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001393.txt,Durmiendo como perros,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001394.txt,El bosque de los animales,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001395.txt,El bosque raíz laberinto,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001396.txt,El gato y el policía,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001418.txt,La casa de las colmenas,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001420.txt,La oveja negra,Calvino; Italo,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001427.txt,Por último; el cuervo,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001428.txt,¿Quién puso la mina en el mar?,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001431.txt,Un barco lleno de cangrejos,Calvino; Italo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001438.txt,El halcón decapitado,Capote; Truman,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001455.txt,Caballo,Cardoso; Onelio Jorge,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001457.txt,El caballo de coral,Cardoso; Onelio Jorge,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001458.txt,El cangrejo volador,Cardoso; Onelio Jorge,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001480.txt,Los conejos blancos,Carrington; Leonora,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001485.txt,El bosque donde las cosas pierden el nombre,Carroll; Lewis,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001500.txt,Conejo,Castillo; Abelardo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001505.txt,Las panteras y el templo,Castillo; Abelardo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001522.txt,Pequeña parábola de “Chindo” perro de ciego,Cela; Camilo José,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001548.txt,El coloquio de los perros,Cervantes; Miguel de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001566.txt,El día que el cerdo se cayó al pozo,Cheever; John,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001600.txt,El camaleón,Chejov; Anton,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001647.txt,La cigarra,Chejov; Anton,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001759.txt,Nido de avispas,Christie; Agatha,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001764.txt,El otro tigre,Clarke; Arthur C.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001801.txt,La bestia,Conrad; Joseph,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001873.txt,Por escrito gallina una,Cortázar; Julio,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001880.txt,Teoría del cangrejo,Cortázar; Julio,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_001897.txt,Los cinco ratones blancos,Crane; Stephen,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001931.txt,Mi hijo fuma en pipa de espuma de mar,Dagerman; Stig,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001945.txt,El pájaro azul,Darío; Rubén,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001960.txt,Palomas blancas y garzas morenas,Darío; Rubén,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001987.txt,La cabra del señor Seguin,Daudet; Alphonse,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001989.txt,La langosta,Daudet; Alphonse,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_001990.txt,La muerte del Delfín,Daudet; Alphonse,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002004.txt,Una viudez de tórtola,Daudet; Alphonse,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002056.txt,La bella durmiente del bosque y el príncipe,Denevi; Marco,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002058.txt,La hormiga,Denevi; Marco,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002072.txt,Pesca de sirenas,Denevi; Marco,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002076.txt,Silencio de sirenas,Denevi; Marco,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002107.txt,Matar un ratón,Díaz Grullón; Virgilio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002111.txt,Las ovejas y las rosas del padre Serafín,Díaz Rodríguez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002121.txt,Tony y los escarabajos,Dick; Philip K.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002156.txt,El mono,Dinesen; Isak,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002158.txt,El pez,Dinesen; Isak,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002191.txt,Cocodrilo: Un evento extraordinario,Dostoyevski; Fiodor,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_002205.txt,El gato del Brasil,Doyle; Arthur Conan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002249.txt,La aventura del hombre que caminaba a cuatro patas,Doyle; Arthur Conan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002255.txt,La cabeza del perro,Doyle; Arthur Conan,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002271.txt,Los pájaros,du Maurier; Daphne,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_002276.txt,El biftec de oso,Dumas; Alexandre (padre),animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002286.txt,La peña del dragón,Dumas; Alexandre (padre),animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002287.txt,La sirena del Rin,Dumas; Alexandre (padre),animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002315.txt,El buey de barro,Echegaray; José,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002335.txt,El águila de ala cortada y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002336.txt,El águila; el cuervo y el pastor,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002337.txt,El águila y el escarabajo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002338.txt,El águila y la flecha,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002339.txt,El águila y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002340.txt,El águila y los gallos,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002342.txt,El asno y la perrita faldera,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002343.txt,El atún y el delfín,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002345.txt,El buen rey león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002346.txt,El buey y el mosquito,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002347.txt,El buey y la becerra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002348.txt,El caballo; el buey; el perro y el hombre,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002349.txt,El caballo viejo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002350.txt,El caballo y el asno,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002351.txt,El caballo y el palafrenero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002352.txt,El caballo y el soldado,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002353.txt,El camello bailarín,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002354.txt,El camello; el elefante y el mono,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002355.txt,El camello que estercoló en el río,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002356.txt,El camello visto por primera vez,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002357.txt,El camello y Zeus,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002358.txt,El cerdo y los carneros,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002359.txt,El ciervo; el manantial y el león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002360.txt,El ciervo y el cervatillo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002361.txt,El cisne tomado por ganso,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002362.txt,El cisne y su dueño,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002363.txt,El cuervo enfermo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002364.txt,El cuervo y Hermes,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002365.txt,El cuervo y la culebra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002367.txt,El gallo y la comadreja,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002368.txt,El gato y las ratas,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002369.txt,El hombre al que mordió un perro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002372.txt,El joven y el lobo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002373.txt,El león apresado por el labrador,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002374.txt,El león enamorado de la hija del labrador,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002375.txt,El león; la zorra y el asno,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002376.txt,El león; la zorra y el ciervo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002377.txt,El león; la zorra y el lobo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002378.txt,El león; la zorra y el ratón,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002379.txt,El león; Prometeo y el elefante,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002380.txt,El león y el asno,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002381.txt,El león y el asno presuntuoso,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002382.txt,El león y el bueyero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002383.txt,El león y el ciervo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002384.txt,El león y el delfín,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002385.txt,El león y el jabalí,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002386.txt,El león y el mosquito luchador,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002387.txt,El león y el pastor,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002388.txt,El león y el ratón,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002389.txt,El león y el toro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002390.txt,El león y la liebre,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002391.txt,El león y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002392.txt,El león y los tres bueyes,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002393.txt,El lobo flautista y el cabrito,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002394.txt,El lobo harto y la oveja,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002395.txt,El lobo herido y la oveja,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002396.txt,El lobo; la nana y el niño,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002397.txt,El lobo orgulloso de su sombra y el león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002398.txt,El lobo y el asno,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002399.txt,El lobo y el caballo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002400.txt,El lobo y el cabrito encerrado,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002401.txt,El lobo y el cordero en el arroyo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002402.txt,El lobo y el cordero en el templo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002403.txt,El lobo y el labrador,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002404.txt,El lobo y el león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002405.txt,El lobo y el pastor,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002406.txt,El lobo y el perro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002407.txt,El lobo y el perro dormido,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002408.txt,El lobo y la cabra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002409.txt,El lobo y la grulla,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002411.txt,El milano y la culebra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002413.txt,El murciélago y el jilguero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002414.txt,El oso y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002416.txt,El perro con campanilla,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002417.txt,El perro de pelea y los perros sencillos,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002418.txt,El perro; el gallo y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002419.txt,El perro que perseguía al león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002420.txt,El perro y el carnicero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002421.txt,El perro y el cocinero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002422.txt,El perro y el reflejo en el río,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002423.txt,El perro y la almeja,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002424.txt,El perro y la corneja,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002425.txt,El perro y la liebre,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002427.txt,El ratón campestre y el cortesano,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002428.txt,El ratón y la rana,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002434.txt,La cabra y el asno,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002435.txt,La cabra y el cabrero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002436.txt,La cierva en la gruta del león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002440.txt,La corneja con los cuervos,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002441.txt,La corneja fugitiva,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002442.txt,La corneja y el cuervo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002443.txt,La corneja y las aves,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002444.txt,La corneja y los pichones,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002447.txt,La gallina de los huevos de oro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002448.txt,La gaviota; el espino y el murciélago,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002450.txt,La liebre y la tortuga,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002453.txt,La paloma y la hormiga,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002454.txt,La rana del pantano y la del camino,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002455.txt,La rana gritona y el león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002456.txt,La rana que decía ser médico y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002457.txt,La víbora y la culebra de agua,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002458.txt,La víbora y la lima,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002459.txt,La víbora y la zorra,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002462.txt,La zorra; el oso y el león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002463.txt,La zorra que nunca había visto un león,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002464.txt,La zorra y el cangrejo del mar,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002466.txt,La zorra y el cocodrilo,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002467.txt,La zorra y el cuervo gritón,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002468.txt,La zorra y el cuervo hambriento,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002472.txt,La zorra y el mono coronado rey,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002473.txt,La zorra y el mono disputando sobre su nobleza,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002474.txt,La zorra y el perro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002477.txt,La zorra y la liebre,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002478.txt,La zorra y la pantera,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002479.txt,La zorra y la serpiente,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002481.txt,Las cabras monteses y el cabrero,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002482.txt,Las liebres y las ranas,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002483.txt,Las ranas pidiendo rey,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002484.txt,Las ranas y el pantano seco,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002485.txt,Las zorras a orillas del río Meandro,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002486.txt,Las zorras; las águilas y las liebres,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002489.txt,Los dos perros,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002490.txt,Los gallos y la perdiz,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002492.txt,Los lobos; los carneros y el carnero padre,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002493.txt,Los lobos reconciliándose con los perros,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002494.txt,Los lobos y los carneros,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002495.txt,Los lobos y los perros alistándose a luchar,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002496.txt,Los murciélagos y las comadrejas,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002497.txt,Los perros hambrientos,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002498.txt,Los ratones y las comadrejas,Esopo,animales,HuggingFace/Fernandoefg,Fábula
+cuento_hf_002527.txt,La cacería del oso,Faulkner; William,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002528.txt,La caza del zorro,Faulkner; William,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002568.txt,Perro Fiel,Fénéon; Félix,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002579.txt,La vaca adúltera,Fernández Flórez; Wenceslao,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002633.txt,Abril; en Río; en 1970,Fonseca; Rubem,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002682.txt,El Cristo del océano,France; Anatole,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002693.txt,El hombre lobo,Francia; María de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002707.txt,La marcha del caracol,Fuentes; Carlos,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002754.txt,Amantes asesinados por una perdiz,García Lorca; Federico,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002756.txt,Historia de este gallo,García Lorca; Federico,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002757.txt,La gallina,García Lorca; Federico,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002764.txt,El cuento del gallo capón,García Márquez; Gabriel,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002809.txt,Pájaros otoñales,Garmendia; Salvador,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002815.txt,El día que fuimos perros,Garro; Elena,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002829.txt,Nuestras vidas son los ríos,Garro; Elena,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002835.txt,El nido de ruiseñores,Gautier; Théophile,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002851.txt,El gato y el ratón,Gibrán; Gibrán Jalil,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002859.txt,El río,Gibrán; Gibrán Jalil,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002864.txt,La ballena y la mariposa,Gibrán; Gibrán Jalil,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002881.txt,Las ranas,Gibrán; Gibrán Jalil,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_002887.txt,Perro sabio,Gibrán; Gibrán Jalil,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002925.txt,Brujería del gato,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002949.txt,El burro zancón,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002951.txt,El camello tiene,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002964.txt,El gato que vuela,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002965.txt,El gato rubrica,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002973.txt,El león,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_002976.txt,El murciélago,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003004.txt,¿Hay peces?,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003016.txt,La gallina está cansada,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003040.txt,Las palabras son peces,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003054.txt,Los pulpos,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003065.txt,Pingüino,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003070.txt,Sabe a mariposa,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003081.txt,Todo el mar,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003086.txt,¿Y si las hormigas?,Gómez de la Serna; Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003090.txt,El ala izquierda del águila,Gómez Valderrama; Pedro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003091.txt,El corazón del gato Ebenezer,Gómez Valderrama; Pedro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003135.txt,Carpa Bonkoiémof,Gorki; Máximo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003209.txt,El gato con botas,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003211.txt,El hombre de la piel de oso,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003216.txt,El pájaro emplumado,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003230.txt,Juan-mi-erizo,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003231.txt,La abeja reina,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003233.txt,La bella durmiente del bosque,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003265.txt,Piel de oso,Grimm; Hermanos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003273.txt,El huevo y la gallina,Guareschi; Giovannino,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003282.txt,Gallina,Gudiño Kieffer; Eduardo,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003285.txt,Vaca,Gudiño Kieffer; Eduardo,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003297.txt,La tercera orilla del río,Guimarães Rosa; João,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003344.txt,Una moneda al río,Guzmán; Nicomedes,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003398.txt,Un perro amarillo,Harte; Bret,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003452.txt,El gato bajo la lluvia,Hemingway; Ernest,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003456.txt,El mar cambia,Hemingway; Ernest,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003461.txt,El río de los dos corazones,Hemingway; Ernest,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003465.txt,El viejo y el mar,Hemingway; Ernest,animales,HuggingFace/Fernandoefg,Novela corta
+cuento_hf_003510.txt,El Águila Negra,Henry; O.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003559.txt,La princesa y el puma,Henry; O.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003574.txt,Memorias de un perro amarillo,Henry; O.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003579.txt,Niños en la selva,Henry; O.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003609.txt,El cocodrilo,Hernández; Felisberto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003631.txt,El lobo,Hesse; Hermann,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003656.txt,La tortuga,Highsmith; Patricia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003722.txt,La pata de mono,Jacobs; W.W.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003749.txt,La bestia en la jungla,James; Henry,animales,HuggingFace/Fernandoefg,Novela corta
+cuento_hf_003759.txt,La muerte del león,James; Henry,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003800.txt,La mujer-gato,Jardiel Poncela; Enrique,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003809.txt,Una garza blanca,Jewett; Sarah Orne,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003836.txt,Buitres,Kafka; Franz,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003847.txt,El silencio de las sirenas,Kafka; Franz,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003858.txt,Las sirenas y el silencio,Kafka; Franz,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003872.txt,El caballo blanco,Kawabata; Yasunari,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003876.txt,La langosta y el grillo,Kawabata; Yasunari,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003880.txt,Sobre pájaros y animales,Kawabata; Yasunari,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003885.txt,El gato que caminaba solo,Kipling; Rudyard,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_003892.txt,Gato Maltés,Kipling; Rudyard,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003901.txt,La marca de la bestia,Kipling; Rudyard,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_003916.txt,El Asno y el Perro,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003917.txt,El asno y su mal compañero,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003918.txt,El Caballo y el Lobo,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003919.txt,El Ciervo enfermo,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003920.txt,El ciervo y la viña,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003923.txt,El cuervo y el zorro,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003924.txt,El dragón de muchas cabezas y el de muchas colas,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003926.txt,El Gallo y el Zorro,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003927.txt,El Gallo y la Perla,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003929.txt,El gato y los ratones,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003931.txt,El Halcón y el Capón,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003934.txt,El León; el Lobo y la Zorra,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003936.txt,El León y el Mosquito,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003938.txt,El Lobo y el Cordero,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003939.txt,El Lobo y el Perro Flaco,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003944.txt,El Ratón de ciudad y el de campo,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003945.txt,El ratón de la corte y el ratón campesino,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003946.txt,El ratón metamorfoseado en doncella,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003947.txt,El Sol y las Ranas,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003948.txt,El Zorro de la cola cortada,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003949.txt,El Zorro; el Lobo y el Caballo,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003950.txt,El Zorro y el Chivo,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003951.txt,El Zorro y la Cigüeña,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003952.txt,EL Zorro y los Pavos,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003957.txt,La cigarra y la hormiga,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003958.txt,La corte del León,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003960.txt,La Gallina de los huevos de oro,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003964.txt,La Liebre y la Tortuga,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003971.txt,La rana que quiso hincharse como un buey,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003972.txt,La Rana y el Ratón,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003974.txt,La Ternera; la Cabra y la Oveja; en compañía del León,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003975.txt,La ternera perdida,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003976.txt,La Tortuga y los dos Patos,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003978.txt,La zorra y la cigüeña,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003984.txt,Los dos asnos: Uno cargado de esponjas y otro de sal,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003987.txt,Los ladrones y el asno,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003989.txt,Los Ratones y el Búho,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_003990.txt,Los Zánganos y las Abejas,La Fontaine; Jean de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004014.txt,El cuento del licántropo,Landolfi; Tommaso,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004019.txt,El mar de las cucarachas,Landolfi; Tommaso,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004020.txt,El mosquito,Landolfi; Tommaso,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004035.txt,La pluma,Landolfi; Tommaso,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004060.txt,Dos pájaros azules,Lawrence; D. H.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004063.txt,El gallo escapado,Lawrence; D. H.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004069.txt,El zorro,Lawrence; D. H.,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_004077.txt,La hija del tratante de caballos,Lawrence; D. H.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004080.txt,La mujer que se fue a caballo,Lawrence; D. H.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004102.txt,La bella y la bestia,Le Prince de Beaumont,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004125.txt,Historia de dos perros,Lessing; Doris,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004139.txt,Leones; hojas; rosas…,Lessing; Doris,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004148.txt,Una anciana y su gato,Lessing; Doris,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004156.txt,Cangrejos; golondrinas,Lezama Lima; José,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004160.txt,La hija del rey Dragón,Li Chaowei,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004218.txt,El muerto en el mar de Urca,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004231.txt,Las aguas del mar,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004236.txt,Monos,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004237.txt,No soltar los caballos,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004241.txt,Seco estudio de caballos,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004247.txt,Una gallina,Lispector; Clarice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004269.txt,El diente de ballena,London; Jack,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004274.txt,El Hijo del Lobo,London; Jack,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004278.txt,El labrador del mar,London; Jack,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004279.txt,El llamado de la selva,London; Jack,animales,HuggingFace/Fernandoefg,Novela corta
+cuento_hf_004291.txt,En los bosques del Norte,London; Jack,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004349.txt,El burro canelo,López y Fuentes; Gregorio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004373.txt,El pantano de la luna,Lovecraft; H. P.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004381.txt,La bestia en la cueva,Lovecraft; H. P.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004391.txt,Los gatos de Ulthar,Lovecraft; H. P.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004414.txt,Los caballos de Abdera,Lugones; Leopoldo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004416.txt,¿Una mariposa?,Lugones; Leopoldo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004470.txt,El pájaro judío,Malamud; Bernard,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004579.txt,Tres hombres junto al río,Marqués; René,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004585.txt,El salto del tigre,Martínez Moreno; Carlos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004596.txt,El perro perdido,Matute; Ana María,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004602.txt,Mar,Matute; Ana María,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004620.txt,Huellas en la jungla,Maugham; W. Somerset,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004649.txt,Cantó un gallo,Maupassant; Guy de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004678.txt,El burro,Maupassant; Guy de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004681.txt,El conejo,Maupassant; Guy de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004711.txt,Ese cerdo de Morin,Maupassant; Guy de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004715.txt,Historia de un perro,Maupassant; Guy de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004854.txt,Amadeus Knödlseder; el incorregible buitre de los Alpes,Meyrink; Gustav,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004857.txt,El juego de los grillos,Meyrink; Gustav,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004859.txt,La visita de J.H. Obereit a las sanguijuelas del tiempo,Meyrink; Gustav,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004861.txt,El mar,Mihura; Miguel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004872.txt,Caballo imaginando a Dios,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004874.txt,Dejar de ser mono,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004875.txt,El burro y la flauta,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004876.txt,El Camaleón que finalmente no sabía de qué color ponerse,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004879.txt,El Conejo y el León,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004884.txt,El grillo maestro,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004885.txt,El mono que quiso ser escritor satírico,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004888.txt,El perro que deseaba ser un ser humano,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004891.txt,El zorro es más sabio,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004903.txt,La mosca que soñaba que era un águila,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004905.txt,La rana que quería ser una rana auténtica,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004906.txt,La sirena inconforme,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004908.txt,La tortuga y Aquiles,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004911.txt,Los Cuervos bien criados,Monterroso; Augusto,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_004959.txt,El perro chino,Moravia; Alberto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_004971.txt,Hay una bomba N también para las hormigas,Moravia; Alberto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005009.txt,Regreso al mar,Moravia; Alberto,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005027.txt,El caballo,Mrozek; Slawomir,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_005068.txt,El pastor del río (1792),Mujica Lainez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005093.txt,La sirena (1541),Mujica Lainez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005102.txt,Los toros (1702),Mujica Lainez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005113.txt,Tormenta en el río (1847),Mujica Lainez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005116.txt,Una aventura del Pollo (1866),Mujica Lainez; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005120.txt,Cisnes silvestres,Munro; Alice,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005134.txt,Ver las orejas al lobo,Munro; Alice,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_005140.txt,La dorada y los esposos,Musset; Alfred de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005150.txt,Antes de que cante el gallo,Mutis; Álvaro,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005171.txt,Nube; castillo; lago,Nabokov; Vladimir,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005190.txt,Pájaros,Nin; Anaïs,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005217.txt,Una vista del bosque,O'Connor; Flannery,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005218.txt,A la otra orilla del río y a través del bosque,O'Hara; John,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005263.txt,El gato,Onetti; Juan Carlos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005268.txt,El perro tendrá su día,Onetti; Juan Carlos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005293.txt,Los niños en el bosque,Onetti; Juan Carlos,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005325.txt,¡A nadar; peces!,Palma; Ricardo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005338.txt,Mujer y tigre,Palma; Ricardo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005360.txt,Cuatro perros hicieron justicia,Papini; Giovanni,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005435.txt,De un nido,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005447.txt,El alma de sirena,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005503.txt,El vino del mar,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005565.txt,La mariposa de pedrería,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005578.txt,La paloma,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005579.txt,La paloma negra,Pardo Bazán; Emilia,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005675.txt,Casa en el mar,Pavese; Cesare,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005682.txt,El coloquio del río,Pavese; Cesare,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005742.txt,La Bella Durmiente del bosque,Perrault; Charles,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005746.txt,Piel de Asno,Perrault; Charles,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005792.txt,La venganza del perro,Pirandello; Luigi,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005807.txt,La pantera,Pitol; Sergio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005812.txt,El río Potudán,Platónov; Andréi,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005829.txt,El coloquio de Monos y Una,Poe; Edgar Allan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005838.txt,El escarabajo de oro,Poe; Edgar Allan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005839.txt,El gato negro,Poe; Edgar Allan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005888.txt,El pescador y el pez dorado,Puchkin; Alexandr,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005902.txt,El almohadón de plumas,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005915.txt,El perro rabioso,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005922.txt,La abeja haragana,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005923.txt,La gallina degollada,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005934.txt,La serpiente de cascabel,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005935.txt,La tortuga gigante,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005936.txt,Las medias de los flamencos,Quiroga; Horacio,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_005961.txt,El nido de jilgueros,Renard; Jules,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_005963.txt,El ratón,Renard; Jules,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_005985.txt,El gallo y el coyote,Reyes; Alfonso,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_005986.txt,El mono y el tejón,Reyes; Alfonso,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_006003.txt,Ratones,Reyes; Alfonso,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_006141.txt,La tela de araña,Ribeyro; Julio Ramón,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006148.txt,Los gallinazos sin plumas,Ribeyro; Julio Ramón,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006153.txt,Mar afuera,Ribeyro; Julio Ramón,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006154.txt,Mariposas y cornetas,Ribeyro; Julio Ramón,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006157.txt,Nube de polillas,Ribeyro; Julio Ramón,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_006214.txt,El burro volador,Rodari; Gianni,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_006215.txt,El cocodrilo sabio,Rodari; Gianni,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006216.txt,El joven cangrejo,Rodari; Gianni,animales,HuggingFace/Fernandoefg,Cuento infantil
+cuento_hf_006239.txt,El león y el hombre,Rojas; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006276.txt,De hombres y gallos,Rueda; Manuel,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006294.txt,No oyes ladrar a los perros,Rulfo; Juan,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006302.txt,Las damiselas del mar,Ruyra; Joaquim,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006304.txt,Una tarde en el mar,Ruyra; Joaquim,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006326.txt,La serpiente,Sade; Marqués de,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_006331.txt,Alpiste para codornices,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006339.txt,El buey cebado,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006340.txt,El buey en el establo,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006341.txt,El cerdo,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006359.txt,Huelga de plumas,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006361.txt,La benefactora y el gato satisfecho,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006363.txt,La filántropa y el gato feliz,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006383.txt,Los lobos de Cernogratz,Saki,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006410.txt,Un día perfecto para el pez plátano,Salinger; J. D.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006437.txt,La calle de los cocodrilos,Schulz; Bruno,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006536.txt,De ratones y hombres,Steinbeck; John,animales,HuggingFace/Fernandoefg,Novela corta
+cuento_hf_006546.txt,Johnny “el Oso”,Steinbeck; John,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006547.txt,La codorniz blanca,Steinbeck; John,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006578.txt,El mono científico,Stevenson; Robert Louis,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006585.txt,El jinete del caballo blanco,Storm; Theodor,animales,HuggingFace/Fernandoefg,Novela corta
+cuento_hf_006632.txt,La desconocida del mar,Tario; Francisco,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006633.txt,La noche de la gallina,Tario; Francisco,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006636.txt,La noche del perro,Tario; Francisco,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006663.txt,El lugar del pájaro maullador,Thurber; James,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006679.txt,El perro muerto,Tolstoi; León,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_006750.txt,El bosque y la estepa,Turgueniev; Iván,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006779.txt,Un incendio en el mar,Turgueniev; Iván,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006781.txt,Una cacería de patos silvestres,Turgueniev; Iván,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006795.txt,El hombre que riñe con los gatos,Twain; Mark,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006797.txt,El robo del elefante blanco,Twain; Mark,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006802.txt,La célebre rana saltadora del condado de Calaveras,Twain; Mark,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006825.txt,De águila a pato,Unamuno; Miguel de,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006897.txt,El gallo,Uslar Pietri; Arturo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006902.txt,El venado,Uslar Pietri; Arturo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006912.txt,La pluma del arcángel,Uslar Pietri; Arturo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006918.txt,Maichak; el hombre del río,Uslar Pietri; Arturo,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_006979.txt,La familia Ratón,Verne; Julio,animales,HuggingFace/Fernandoefg,Cuento largo
+cuento_hf_006990.txt,El lobo-hombre,Vian; Boris,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007004.txt,Los dos gatos,Vidales; Luis,animales,HuggingFace/Fernandoefg,Minicuento
+cuento_hf_007016.txt,El asesino de cisnes,Villiers de L'Isle Adam,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007017.txt,El canto del gallo,Villiers de L'Isle Adam,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007096.txt,El tesoro en el bosque,Wells; H.G.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007097.txt,El valle de las arañas,Wells; H.G.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007106.txt,La polilla,Wells; H.G.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007115.txt,Un negocio de avestruces,Wells; H.G.,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007118.txt,El lago de la luna,Welty; Eudora,animales,HuggingFace/Fernandoefg,Cuento
+cuento_hf_007238.txt,La estrella sobre el bosque,Zweig; Stefan,animales,HuggingFace/Fernandoefg,Cuento
